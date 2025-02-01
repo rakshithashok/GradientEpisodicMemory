@@ -1,7 +1,6 @@
 argparse
 datetime
 importlib
-math
 matplotlib
 numpy
 os
