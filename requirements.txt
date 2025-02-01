@@ -3,7 +3,6 @@ datetime
 importlib
 matplotlib
 numpy
-PIL 
 pickle
 quadprog
 random
