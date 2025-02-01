@@ -3,7 +3,6 @@ datetime
 importlib
 matplotlib
 numpy
-os
 PIL 
 pickle
 quadprog
