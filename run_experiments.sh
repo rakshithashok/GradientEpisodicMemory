@@ -6,12 +6,12 @@ MNIST_PERM="--n_layers 2 --n_hiddens 100 --data_path data/ --save_path results/ 
 CIFAR_100i="--n_layers 2 --n_hiddens 100 --data_path data/ --save_path results/ --batch_size 10 --log_every 100 --samples_per_task 2500 --data_file cifar100.pt           --cuda yes --seed 0"
 
 # build datasets
-cd data/
-cd raw/
+!cd data/
+!cd raw/
 
 $MY_PYTHON raw.py
 
-cd ..
+!cd ..
 
 $MY_PYTHON mnist_permutations.py \
 	--o mnist_permutations.pt \
