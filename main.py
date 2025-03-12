@@ -171,7 +171,7 @@ if __name__ == "__main__":
                         help='whether to initialize nets in indep. nets')
 
     # optimizer parameters
-    parser.add_argument('--n_epochs', type=int, default=1,
+    parser.add_argument('--n_epochs', type=int, default=10,
                         help='Number of epochs per task')
     parser.add_argument('--batch_size', type=int, default=10,
                         help='batch size')
